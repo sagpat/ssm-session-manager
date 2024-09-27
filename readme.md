@@ -39,13 +39,13 @@
     2.2 Every session creates detailed logs that help track any anomalies or unauthorized access.
 \
 
-#### Benefits:
+### Benefits:
 1. Single way to connect all the instances irrespective of the instance type. 
 2. No Need for SSH or RDP Ports. EC2 instances can be connect securely without opening traditional access ports.
 3. Secure as admins get the control to audit all the logs since every session creates detailed logs that help track any anomalies or unauthorized access.
 
 
-#### Use Case:
+### Use Case:
 1. A large team with different EC2 instance type and which recides in different VPCs require access to the instances using CLIs.
 2. The first team might request access using SSH and other using RDP and so on.
 3. Managing such a large pool of instances and different authentication mechanisms will be overhead for the admins.
