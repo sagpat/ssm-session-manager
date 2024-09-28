@@ -4,7 +4,16 @@
 2. Along with the popular options AWS offers the Systems Manager (SSM) Session Manager to connect the EC2 instance.
 3. SSM Session Manager a powerful feature that allows secure tunneling and remote management of EC2 instances.
 4. It provides the ability to handle various types of traffic, including SSH, HTTPS, RDP, or other protocols, all without the need for traditional access mechanisms like opening ports or assigning public IPs. Additionally, it allows logging capabilities and an audit trail for compliance purposes.
+---------
+<b> 
+Kindly note, I have created two different modules for demo purpose.
+Both the modules have different set of VPCs and other infra around it.
 
+If you are planning to run this in your AWS, please check the `main.tf` file.
+You can run the modules seperately to check both the ways SSM works.
+</b>
+
+----------
 ### Ways to connect to SSM Session Manager:
 1. **Through public connectivity or using NAT Gateway:** \
     **1.1** The EC2 instance would need internet access with public IP (instances in public subnet) to communicate with the Systems Manager service along with NAT Gateway in case the instance is in private subnet. \
